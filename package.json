@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "browser-sync": "^3.0.2",
+    "nodemon": "^3.1.3"
+  }
+}

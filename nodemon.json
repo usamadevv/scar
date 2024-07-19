@@ -1,0 +1,5 @@
+{
+    "watch": ["indexa.html", "server.js","indexa.css"],
+    "ext": "js,html,css",
+    "exec": "browser-sync start --proxy 'localhost:3000' --files 'indexa.html' & 'indexa.css' & node server.js"
+  }
