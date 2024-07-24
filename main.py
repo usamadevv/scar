@@ -571,7 +571,8 @@ class Backend(QObject):
     
     def pythonFunction2sq(self,globallinks,querystr):
              qr=querystr.split('234')
-             excel_file_path = desktop_path / f"{qr[0]}_{qr[1]}.xlsx"
+             excel_file_path = f"./{qr[0]}_{qr[1]}.xlsx"
+
              column_mapping = {
     'title': 'Company',
       'category':'Category',
